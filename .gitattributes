@@ -1,0 +1,52 @@
+# Auto detect file types, if no further configs are given. Set end-of-line to LF.
+* text=auto eol=lf
+
+# Specify the following file types to be text, and do the CRLF/LF conversion.
+
+*.zig text eol=lf
+
+*.vbs text eol=lf
+*.bat text eol=lf
+*.sh text eol=lf
+
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+*.txt text eol=lf
+*.md text eol=lf
+
+*.tps text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+
+*.svg text eol=lf
+
+*.java text eol=lf
+*.jmx text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+
+*.bmfc text eol=lf
+
+
+# Leave the binary files as-is.
+*.exe binary
+*.dll binary
+*.o binary
+
+*.class binary
+*.png binary
+*.jpg binary
+*.jks binary
+*.ico binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.kra binary
+*.psd binary
+*.xcf binary
+*.sifz binary
+*.ttf binary
+*.otf binary
+*.zip binary
